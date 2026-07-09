@@ -1,4 +1,4 @@
-# 🎧 IASUS – Intelligent Audio Scene Understanding System
+# IASUS – Intelligent Audio Scene Understanding System
 
 IASUS (Intelligent Audio Scene Understanding System) is a deep learning-based framework for recognizing environmental sounds and understanding complex audio scenes. The system is designed to identify both **individual sounds** and **multiple simultaneous or sequential sound events**, making it a step towards real-world audio scene understanding.
 
@@ -6,7 +6,7 @@ Built using the **ESC-50 environmental sound dataset**, the project leverages **
 
 ---
 
-## 🚀 Motivation
+## Motivation
 
 Environmental sound recognition has applications in smart surveillance, healthcare, robotics, autonomous systems, and assistive technologies. While traditional classifiers focus on identifying a single sound, real-world environments often contain multiple overlapping or sequential sound events.
 
@@ -14,7 +14,7 @@ This project aims to bridge that gap by developing a multi-stage audio understan
 
 ---
 
-## 📌 Project Pipeline
+## Project Pipeline
 
 The system is organized into four stages:
 
@@ -52,7 +52,7 @@ The predicted sound labels are converted into natural-language descriptions usin
 
 ---
 
-# 🧠 Model Architecture
+# Model Architecture
 
 ```
 Audio Waveform
@@ -78,7 +78,7 @@ Scene Description Generator
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```
 IASUS/
@@ -102,7 +102,7 @@ IASUS/
 
 ---
 
-# ⚙️ Key Features
+# Key Features
 
 - Environmental sound classification
 - Single-label learning
@@ -115,7 +115,7 @@ IASUS/
 
 ---
 
-# 📊 Results
+# Results
 
 | Task | Performance |
 |------|-------------|
@@ -126,7 +126,7 @@ IASUS/
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 - Python
 - PyTorch
@@ -139,7 +139,7 @@ IASUS/
 
 ---
 
-# ▶️ Getting Started
+# Getting Started
 
 ### Install dependencies
 
@@ -175,7 +175,7 @@ python predict_single_file.py --file audio.wav
 
 ---
 
-# 💡 Highlights
+# Highlights
 
 - Achieved **83% validation accuracy** on the ESC-50 environmental sound classification benchmark.
 - Designed a multi-stage pipeline capable of understanding single, sequential, and overlapping audio events.
@@ -185,7 +185,7 @@ python predict_single_file.py --file audio.wav
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - Automatic detection of audio composition mode.
 - Support for more than two simultaneous sound events.
